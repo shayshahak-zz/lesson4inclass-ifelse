@@ -11,16 +11,16 @@ namespace Lesson4
         static void Main(string[] args)
         {
             //without nested if
-            //Console.WriteLine("enter three numbers");
-            //int a = int.Parse(Console.ReadLine());
-            //int b = int.Parse(Console.ReadLine());
-            //int c = int.Parse(Console.ReadLine());
-            //if ((a>b) && (a>c))
-            //    Console.WriteLine("a is the biggest {0} ", a);
-            //if ((b>a) && (b>c))
-            //    Console.WriteLine("b is the biggest {0} ", b);
-            //if ((c>a) && (c>b))
-            //    Console.WriteLine("c is the biggest {0} ", c);
+            Console.WriteLine("enter three numbers");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            if ((a > b) && (a > c))
+                Console.WriteLine("a is the biggest {0} ", a);
+            if ((b > a) && (b > c))
+                Console.WriteLine("b is the biggest {0} ", b);
+            if ((c > a) && (c > b))
+                Console.WriteLine("c is the biggest {0} ", c);
 
 
             //with nested if
@@ -39,16 +39,16 @@ namespace Lesson4
 
 
             //taking two digit number and print their sum, but make sure they are only two digit = less then 100, greater then 10
-            //Console.WriteLine("please enter a two digit number");
-            //int theNum = int.Parse(Console.ReadLine());
-            //if ((theNum >= 100) || (theNum <= 9))
-            //    Console.WriteLine("you are a tembel");
-            //else
-            //{
-            //    int a = (theNum /10);
-            //    int b = (theNum % 10);
-            //    Console.WriteLine("the sum is {0}", (a+b));
-            //}
+            Console.WriteLine("please enter a two digit number");
+            int theNum = int.Parse(Console.ReadLine());
+            if ((theNum >= 100) || (theNum <= 9))
+                Console.WriteLine("you are a tembel");
+            else
+            {
+                int x = (theNum / 10);
+                int y = (theNum % 10);
+                Console.WriteLine("the sum is {0}", (x + y));
+            }
 
             //לולאה שתדפיס את הסכום של i
             Console.WriteLine("enter number");
